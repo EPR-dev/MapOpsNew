@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MapOps - Territory Intelligence for Sales Leaders</title>
+<meta name="description" content="MapOps builds live GTM territory maps that help teams decide where to focus before they expand."/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css?v=20260327"/>
+<style>
+  .hero-home{display:grid;grid-template-columns:1.05fr .95fr;gap:24px;align-items:start}
+  .hero-home .visual{
+    border:1px solid rgba(255,255,255,.12);
+    border-radius:18px;
+    overflow:hidden;
+    box-shadow:0 18px 42px rgba(0,0,0,.35)
+  }
+  .hero-home .visual img{display:block;width:100%;height:auto}
+  .hero-badges{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}
+  .hero-pill,.metric-pill{
+    display:inline-flex;align-items:center;gap:8px;padding:8px 10px;border-radius:999px;
+    border:1px solid rgba(255,255,255,.16);
+    background:linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,.02));
+    color:#cfe8f5;font-weight:700;font-size:13px
+  }
+  .hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:18px}
+  .embed-wrap{
+    margin-top:18px;border:1px solid rgba(255,255,255,.14);border-radius:18px;overflow:hidden;
+    background:#0b0f13;box-shadow:0 18px 42px rgba(0,0,0,.35)
+  }
+  .embed-wrap iframe{display:block;width:100%;height:900px;border:0;background:#0b0f13}
+  .three-up{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+  .mini-card{
+    background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.12);border-radius:16px;
+    padding:18px;box-shadow:0 12px 28px rgba(0,0,0,.28)
+  }
+  .mini-card h3{margin:0 0 8px;color:var(--brand)}
+  .mini-card p{margin:0;color:#c2d0e0}
+  .cta-strip{
+    background:linear-gradient(180deg, rgba(255,255,255,.03), rgba(255,255,255,.02));
+    border:1px solid rgba(255,255,255,.12);border-radius:18px;padding:22px;
+    display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap
+  }
+  footer{border-top:1px solid rgba(255,255,255,.12);padding:28px 0 48px}
+  .footer-row{display:flex;justify-content:space-between;align-items:flex-start;gap:18px;flex-wrap:wrap}
+  .footer-links{display:flex;gap:28px;flex-wrap:wrap}
+  @media (max-width: 900px){
+    .hero-home,.three-up{grid-template-columns:1fr}
+    .embed-wrap iframe{height:720px}
+  }
+</style>
+</head>
+<body>
+<header><div class="container"><nav aria-label="Primary navigation"><div class="logo">
+  <a href="index.html" style="color:inherit;text-decoration:none;display:flex;align-items:center;gap:10px">
+    <span class="logo-dot" aria-hidden="true"></span>MapOps
+  </a>
+</div><div class="nav-links">
+  <a href="why.html" class="muted">Why MapOps</a>
+  <a href="how.html" class="muted">How It Works</a>
+  <a href="who-full.html" class="muted">Who It’s Built For</a>
+  <a href="partners.html" class="muted">Partners</a>
+  <a href="#contact" class="btn">Get In Touch</a>
+</div></nav></div></header>
+
+<main>
+  <section class="section">
+    <div class="container hero-home">
+      <div>
+        <span class="kicker" style="color:#8fb9c8;letter-spacing:.08em;text-transform:uppercase;">Territory intelligence for GTM leaders</span>
+        <h1 class="title">Map your next territory before you spend into it.</h1>
+        <p class="subtitle" style="max-width:860px">
+          MapOps builds live GTM territory maps that help sales leaders, founders, and RevOps teams decide where to focus before they expand.
+        </p>
+        <p class="muted" style="max-width:860px">
+          We turn messy market questions into clear geographic decisions. Where should you go next, what should reps focus on first, and which parts of the market are getting missed?
+        </p>
+        <div class="hero-actions">
+          <a class="btn" href="#live-map">See the Live Map</a>
+          <a class="btn ghost" href="https://calendly.com/contact-mapops/30min" target="_blank" rel="noopener" style="background:transparent;color:#fff;border:1px solid rgba(255,255,255,.18)">Book a Strategy Call</a>
+        </div>
+        <div class="hero-badges">
+          <span class="hero-pill">Market discovery</span>
+          <span class="hero-pill">Territory design</span>
+          <span class="hero-pill">Whitespace analysis</span>
+        </div>
+      </div>
+      <div class="visual">
+        <img src="2774835.jpg" alt="MapOps live dashboard preview"/>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container three-up">
+      <article class="mini-card">
+        <h3>See the market clearly</h3>
+        <p>MapOps layers territory logic, market signals, and sales context into one live view your team can actually use.</p>
+      </article>
+      <article class="mini-card">
+        <h3>Cut wasted motion</h3>
+        <p>Reduce overlap, bad routing, weak market guesses, and broad territory thinking that burns time and budget.</p>
+      </article>
+      <article class="mini-card">
+        <h3>Move with conviction</h3>
+        <p>Use one shared map to align leadership, sales, and GTM planning around what to do next and why.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="live-map" class="section">
+    <div class="container">
+      <span class="kicker" style="color:#8fb9c8;letter-spacing:.08em;text-transform:uppercase;">Live demo</span>
+      <h2 class="section-heading">Live GTM Territory Map</h2>
+      <p class="muted" style="max-width:900px">
+        This is a real MapOps dashboard. Your map will be similar in structure, but tailored to your market, motion, and sales questions.
+      </p>
+      <div class="embed-wrap">
+        <iframe
+          src="https://udf.ai/fsh_13LsE1MTcrcv2k6HdVAQIa.html?v=20260327"
+          title="MapOps live GTM territory map"
+          loading="lazy"
+          referrerpolicy="strict-origin-when-cross-origin"></iframe>
+      </div>
+      <div class="hero-actions">
+        <a class="btn" href="https://udf.ai/fsh_13LsE1MTcrcv2k6HdVAQIa.html?v=20260327" target="_blank" rel="noopener">Open Full Screen</a>
+        <a class="btn ghost" href="https://calendly.com/contact-mapops/30min" target="_blank" rel="noopener" style="background:transparent;color:#fff;border:1px solid rgba(255,255,255,.18)">Map My Next Territory</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container three-up">
+      <article class="mini-card">
+        <h3>What MapOps helps answer</h3>
+        <p>Where should we go next, which pockets deserve rep time first, and where are we over-covered or under-covered?</p>
+      </article>
+      <article class="mini-card">
+        <h3>Typical use cases</h3>
+        <p>Territory redesign, market entry planning, field coverage, routing, and whitespace analysis.</p>
+      </article>
+      <article class="mini-card">
+        <h3>Built for</h3>
+        <p>RevOps teams, sales leaders, founders, and agency partners who need geographic clarity before making GTM decisions.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="cta-strip">
+        <div>
+          <h2 class="section-heading" style="margin:0 0 8px">Let’s map your next GTM decision</h2>
+          <p class="muted" style="margin:0;max-width:760px">
+            Bring the market, territory, or coverage question you’re wrestling with. We’ll look at the motion, talk through the territory logic, and figure out whether a live map would help your team move faster.
+          </p>
+        </div>
+        <div class="hero-actions" style="margin-top:0">
+          <a class="btn" href="https://calendly.com/contact-mapops/30min" target="_blank" rel="noopener">Book a Strategy Call</a>
+          <a class="btn ghost" href="why.html" style="background:transparent;color:#fff;border:1px solid rgba(255,255,255,.18)">Why MapOps</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container footer-row">
+    <div>
+      <div style="font-weight:700;margin-bottom:4px">MapOps</div>
+      <div class="muted">Market discovery and territory clarity for sales and RevOps teams.</div>
+      <div class="muted" style="margin-top:6px;font-size:13px">© <span id="year"></span> MapOps. If you can see it, you can sell it.</div>
+    </div>
+    <div class="footer-links">
+      <div><a href="why.html">Why MapOps</a></div>
+      <div><a href="how.html">How It Works</a></div>
+      <div><a href="who-full.html">Who It’s Built For</a></div>
+      <div><a href="partners.html">Partners</a></div>
+    </div>
+  </div>
+</footer>
+
+<script>
+document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
